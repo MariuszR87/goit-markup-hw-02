@@ -4,6 +4,16 @@ body {
   color: #ffffff;
 }
 
+header {
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  border: 1px solid #ececec;
+  background: #ffffff;
+}
+
 .logo-style {
   font-family: "Raleway";
   font-style: normal;
@@ -13,8 +23,13 @@ body {
   /* identical to box height */
 
   letter-spacing: 0.03em;
-
   color: #2196f3;
+}
+
+nav {
+  width: 261px;
+  height: 16px;
+  display: flex;
 }
 
 a {
@@ -24,14 +39,19 @@ a {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: #212121;
+  text-decoration: none;
 }
 
 .black-text {
   color: black;
 }
 
-a .contact-link {
+.blue-text {
+  color: #2196f3;
+}
+
+.contact-link {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
