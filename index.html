@@ -15,37 +15,41 @@
     <title>Studio</title>
   </head>
   <body>
-    <header>
-      <a href="./index.html" class="logo-style blue-text"
+    <header class="header-index">
+      <a href="./index.html" class="logo-style logo-header"
         >Web<span class="black-text">Studio</span></a
       >
       <nav>
         <ul>
-          <li><a href="./agencja.html" class="agencja-link">Agencja</a></li>
           <li>
-            <a class="blue-text portfolio-link" href="./portfolio.html"
-              >Portfolio</a
-            >
+            <a href="./agencja.html" class="agencja-link link">Agencja</a>
           </li>
-          <li><a href="./kontakt.html" class="kontakty-link">kontakt</a></li>
+          <li>
+            <a class="portfolio-link link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li>
+            <a href="./kontakt.html" class="kontakty-link link">Kontakt</a>
+          </li>
         </ul>
       </nav>
 
-      <a class="contact-link header-email-link" href="mailto:info@devstudio.com"
+      <a
+        class="contact-link header-email-link link"
+        href="mailto:info@devstudio.com"
         >info@devstudio.com</a
       >
-      <a class="contact-link header-tel-link" href="tel:+48111111111"
+      <a class="contact-link header-tel-link link" href="tel:+48111111111"
         >+48 111 111 111</a
       >
     </header>
 
     <main>
-      <section>
-        <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button type="button">Zamów usługe</button>
+      <section class="index-h1-background">
+        <h1 class="index-h1-text">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+        <button class=".index-button" type="button">Zamów usługe</button>
       </section>
       <section>
-        <ul>
+        <ul class="index-text-under-h1">
           <li>
             <h3>LOREM IPSUM</h3>
             <p>
@@ -53,21 +57,21 @@
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li>
+          <li class="margin-30">
             <h3>LOREM IPSUM</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li>
+          <li class="margin-30">
             <h3>LOREM IPSUM</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li>
+          <li class="margin-30">
             <h3>LOREM IPSUM</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
@@ -76,7 +80,7 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="what-we-do">
         <h2>Czym się zajmujemy</h2>
         <ul>
           <li>
@@ -107,7 +111,7 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="nasz-zespol">
         <h2>Nasz zespół</h2>
         <ul>
           <li>
@@ -169,12 +173,20 @@
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="index.html">WebStudio</a>
-      <address>
+    <footer class="footer-index">
+      <a href="./index.html" class="logo-style logo-footer"
+        >Web<span class="white-text">Studio</span>
+      </a>
+      <address class="address">
         m. Warszawa, Aleje Jerozolimskie 21<br />
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+48111111111">+48 111 111 111</a>
+        <a
+          class="contact-link footer-email-link link"
+          href="mailto:info@devstudio.com"
+          >info@devstudio.com</a
+        >
+        <a class="contact-link footer-tel-link link" href="tel:+48111111111"
+          >+48 111 111 111</a
+        >
       </address>
     </footer>
   </body>
