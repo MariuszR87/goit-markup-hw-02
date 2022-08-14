@@ -7,6 +7,8 @@ body {
   width: 1600px;
   height: 1880px;
   background: #ffffff;
+  margin: 0px;
+  padding: 0px;
 }
 
 header {
@@ -16,7 +18,7 @@ header {
   left: 0px;
   top: 0px;
   border: 1px solid #ececec;
-  background-color: #6d3838;
+  background-color: #ffffff;
 }
 
 li {
@@ -32,10 +34,20 @@ li {
   position: absolute;
   width: 145px;
   height: 31px;
-  left: 215px;
-  top: 24px;
+
   letter-spacing: 0.03em;
   color: #2196f3;
+}
+
+.logo-header {
+  position: absolute;
+  left: 215px;
+  top: 24px;
+}
+.logo-footer {
+  position: absolute;
+  left: 215px;
+  top: 60px;
 }
 
 a {
@@ -93,6 +105,9 @@ nav {
 .black-text {
   color: black;
 }
+.white-text {
+  color: #ffffff;
+}
 
 .blue-text {
   color: #2196f3;
@@ -106,6 +121,8 @@ button {
   border-radius: 4px;
   text-align: center;
   letter-spacing: 0.03em;
+  display: flex;
+  justify-content: center;
 }
 .button-wszystkie {
   position: absolute;
@@ -143,12 +160,60 @@ button {
   top: 174px;
 }
 
-h4 {
+.box > h4 {
   text-align: center;
 }
 
 button {
   cursor: pointer;
+}
+
+.box {
+  box-sizing: border-box;
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  padding-top: 0px;
+  padding-left: 0px;
+}
+
+.box-portfolio1 {
+  left: 215px;
+  top: 262px;
+}
+.box-portfolio2 {
+  left: 615px;
+  top: 262px;
+}
+.box-portfolio3 {
+  left: 1015px;
+  top: 262px;
+}
+.box-portfolio4 {
+  left: 215px;
+  top: 696px;
+}
+.box-portfolio5 {
+  left: 615px;
+  top: 696px;
+}
+.box-portfolio6 {
+  left: 1015px;
+  top: 696px;
+}
+.box-portfolio7 {
+  left: 215px;
+  top: 1130px;
+}
+.box-portfolio8 {
+  left: 615px;
+  top: 1130px;
+}
+.box-portfolio9 {
+  left: 1015px;
+  top: 1130px;
 }
 
 footer {
@@ -158,4 +223,38 @@ footer {
   margin-left: 0px;
   margin-top: 1628px;
   background: #2f303a;
+}
+
+address {
+  position: absolute;
+  width: 247px;
+  height: 81px;
+  left: 215px;
+  top: 111px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  margin: 0px;
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+
+.footer-email-link {
+  position: absolute;
+  width: 135px;
+  height: 16px;
+  left: 0px;
+  top: 30px;
+}
+.footer-tel-link {
+  position: absolute;
+  width: 110px;
+  height: 16px;
+  left: 0px;
+  top: 60px;
 }
