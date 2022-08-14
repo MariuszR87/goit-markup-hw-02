@@ -1,8 +1,12 @@
 body {
   font-family: "Roboto", sans-serif;
   font-family: "Raleway", sans-serif;
-  background-color:  #ffffff;
+  background-color: #ffffff;
   color: #212121;
+  position: relative;
+  width: 1600px;
+  height: 1880px;
+  background: #ffffff;
 }
 
 header {
@@ -15,6 +19,10 @@ header {
   background: #ffffff;
 }
 
+li {
+  list-style: none;
+}
+
 .logo-style {
   font-family: "Raleway";
   font-style: normal;
@@ -22,7 +30,6 @@ header {
   font-size: 26px;
   line-height: 31px;
   /* identical to box height */
-
   letter-spacing: 0.03em;
   color: #2196f3;
 }
@@ -67,4 +74,13 @@ h4 {
 
 button {
   cursor: pointer;
+}
+
+footer {
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  margin-left: 0px;
+  margin-top: 1628px;
+  background: #2f303a;
 }
