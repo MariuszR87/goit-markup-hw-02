@@ -14,6 +14,8 @@ body {
   font-style: normal;
 }
 
+/* NAGŁÓWEK  */
+
 .header-index {
   position: absolute;
   width: 1600px;
@@ -31,130 +33,6 @@ body {
   top: 0px;
   border: 1px solid #ececec;
   background-color: #ffffff;
-}
-
-.index-h1-background {
-  position: absolute;
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
-
-  background: #2f303a;
-}
-
-.index-h1-text {
-  position: absolute;
-  width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 200px;
-
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 60px;
-  /* or 136% */
-
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-
-  color: #ffffff;
-}
-
-.index-button {
-  position: absolute;
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 4350px;
-
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-}
-
-.index-text-under-h1 {
-  position: absolute;
-  width: 1170px;
-  height: 101px;
-  left: 215px;
-  top: 774px;
-  display: flex;
-}
-.margin-30 {
-  margin-left: 30px;
-}
-
-.index-text-under-h1 h3 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #212121;
-}
-
-.index-text-under-h1 p {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-li {
-  list-style: none;
-}
-
-.what-we-do {
-  position: absolute;
-  width: 1170px;
-  height: 386px;
-  left: 215px;
-  top: 969px;
-}
-
-.what-we-do h2 {
-  position: absolute;
-  width: 352px;
-  height: 42px;
-  left: 624px;
-  top: 0px;
-
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.02em;
-
-  color: #212121;
-}
-.what-we-do ul {
-  display: flex;
-  margin-top: 92px;
-}
-
-.nasz-zespol {
-  position: absolute;
-  width: 1600px;
-  height: 648px;
-  left: 0px;
-  top: 1449px;
-
-  background: #f5f4fa;
-}
-
-.nasz-zespol ul {
-  display: flex;
 }
 
 .logo-style {
@@ -257,6 +135,162 @@ nav {
 .contact-link {
   color: #757575;
 }
+/* STRONA INDEX */
+
+.index-h1-background {
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+
+  background: #2f303a;
+}
+
+.index-h1-text {
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 200px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.index-button {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 4350px;
+
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.index-text-under-h1 {
+  position: absolute;
+  width: 1170px;
+  height: 101px;
+  left: 215px;
+  top: 774px;
+  display: flex;
+}
+.margin-30 {
+  margin-left: 30px;
+}
+
+.index-text-under-h1 h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.index-text-under-h1 p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+li {
+  list-style: none;
+}
+
+.what-we-do {
+  justify-content: center;
+  position: absolute;
+  width: 1170px;
+  height: 386px;
+  left: 215px;
+  top: 969px;
+}
+
+.what-we-do h2 {
+  justify-content: center;
+  position: absolute;
+  width: 352px;
+  height: 42px;
+  left: 624px;
+  top: 0px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+.what-we-do ul {
+  display: flex;
+  margin-top: 92px;
+  left: px;
+}
+.what-we-do li {
+  margin: 15px;
+}
+
+.nasz-zespol {
+  position: absolute;
+  width: 1600px;
+  height: 648px;
+  top: 1449px;
+  background: #f5f4fa;
+}
+.nasz-zespol h2 {
+  text-align: center;
+}
+
+.nasz-zespol ul {
+  justify-content: center;
+  display: flex;
+  position: absolute;
+  width: 1170px;
+  height: 368px;
+  align-content: center;
+  left: 215px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.nasz-zespol figure {
+  width: 270px;
+  height: 368px;
+  background: #ffffff;
+  /* material shadow v1 */
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  margin-left: 15px;
+  text-align: center;
+}
+.nasz-zespol figcaption {
+  justify-content: center;
+}
+
 .portfolio-button {
   background: #f5f4fa;
   letter-spacing: 0.03em;
