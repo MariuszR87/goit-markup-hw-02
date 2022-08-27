@@ -10,6 +10,8 @@
 --background-color-main: #FFFFFF;
 --background-color-secondary: #2F303A;
 --hover-color: #2196F3;
+--figure-border: #EEEEEE;
+--fotter-links: #ffffff99;
 }
 
 
@@ -18,11 +20,13 @@ body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: var(--font-color-main);
   background-color: var(--background-color-main);
-  color: var(--background-color-main);
   
 }
 .black-text{
   color: var(--black);
+}
+.white-text{
+  color: var(--white);
 }
 
 .logo{
@@ -94,6 +98,27 @@ color: var(--white);
 cursor: pointer;
 }
 
+.main-box-h1 {
+
+background-color: var(--background-color-secondary);
+}
+
+.main-box-btn{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: var(--white);
+background: var(--blue);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+
 .text-heading
 
 .text-paragraph-heading{
@@ -101,7 +126,7 @@ font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
@@ -111,13 +136,62 @@ text-transform: uppercase;
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
-line-height: 171;
+line-height: 1.71;
 letter-spacing: 0.03em;
 }
 
-.text-image-heading{}
+.portfolio-card{
 
-.text-image-text{}
+}
 
+.portfolio-figure{
+  border: 1px solid var(--figure-border);
+}
 
+.portfolio-card h3{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
 
+.portfolio-card p{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  
+  color:var(--font-color-second)
+}
+
+ /* FOOTER */
+
+.footer{
+  background: #2F303A;
+}
+
+.footer-adress{
+  text-decoration: none;
+  color: var(--white);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.footer-links-contact {
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--fotter-links);
+}
