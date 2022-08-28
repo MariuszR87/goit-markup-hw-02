@@ -134,7 +134,7 @@ letter-spacing: 0.03em;
 color: var(--font-color-second)
 }
 
-.team{
+.section-not-white{
   background-color: var(--not-white);
 }
 
