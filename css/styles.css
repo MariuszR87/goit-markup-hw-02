@@ -89,15 +89,6 @@ cursor: pointer;
   background-color: var(--background-color-secondary);
 }
 
-.main-box h1 {
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-text-align: center;
-letter-spacing: 0.06em;
-color: #FFFFFF;
-}
-
 .main-box-btn{
 font-family: 'Roboto';
 font-weight: 700;
@@ -113,12 +104,37 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 }
 
-.text-paragraph-heading {
+.class-h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+  }
+
+.class-h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.class-h3 {
 font-weight: 700;
 line-height: 1.14;
 text-transform: uppercase;
 letter-spacing: 0.03em;
 font-size: 14px;
+}
+
+.class-h4 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .text-paragraph{
@@ -132,24 +148,9 @@ color: var(--font-color-second)
   background-color: var(--not-white);
 }
 
-.section-not-white h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-
 .index-figure{
+  background-color: var(--background-color-main);
   border: 1px solid var(--figure-border);
-}
-
-.index-figure h4{
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-  text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .index-figure p{
