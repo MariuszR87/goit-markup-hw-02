@@ -15,18 +15,17 @@
 }
 
 body {
-  font-family: 'Roboto', 'Raleway', sans-serif;
-  font-style: normal;
+  font-family: 'Roboto', sans-serif;
   color: var(--font-color-main);
   background-color: var(--background-color-main);
 
 }
 
-.black-text{
+.logo-dark{
   color: var(--black);
 }
 
-.white-text{
+.logo-white{
   color: var(--white);
 }
 
@@ -39,7 +38,7 @@ body {
   line-height: 1.19;
 }
 
-.links{
+.nav-item{
   text-decoration: none;
   color: var(--font-color-main);
   font-weight: 500;
@@ -48,8 +47,12 @@ body {
   letter-spacing: 0.02em;
 }
 
-.links-contact {
+.links {
   text-decoration: none;
+}
+
+.links-contact {
+  
   color: var(--font-color-second);
   font-weight: 500;
   font-size: 14px;
@@ -93,7 +96,6 @@ line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 color: #FFFFFF;
-
 }
 
 .main-box-btn{
