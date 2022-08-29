@@ -60,6 +60,10 @@ body {
   letter-spacing: 0.02em;
 }
 
+.active-page {
+  color: var(--blue);
+  }
+
 .links:hover,
 .links:focus,
 .links-contact:hover,
